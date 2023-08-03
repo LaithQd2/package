@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vhd;
+  width: 100%;
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header {
+  background-color: rgba(25, 12, 0, .85);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  background-color: #210;
+  position: absolute;
+  bottom: -1;
+}
+
+header h1 {
+  font-size: 54px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+nav ul li {
+  color: #fff;
+  font-size: 24px;
+  list-style: none;
+  padding: 10px;
+  margin: 25px 5px 0 5px;
+  background-color: rgba(25, 12, 0, .85);
+  border-radius: 5px;
+}
+
+nav ul li:active {
+  transform: scale(1.2)
+}
+
+.home-container {
+  background-color: rgba(25, 12, 0, .85);
+  color: #fff;
+  text-align: center;
+  margin: 75px 0;
+  padding: 25px;
+}
+
+.home-container p {
+  font-size: 24px;
+  padding: 10px
+}
+
+.home-container img {
+  width: 300px;
+  margin: 25px;
+  border-radius: 50%;
+}
+
+.menu-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.dish {
+  background-color: rgba(25, 12, 0, .85);
+  margin: 75px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+}
+
+.dish img {
+  width: 150px;
+}
+
+.contact-container {
+  background-color: rgba(25, 12, 0, .85);
+  color: #fff;
+  margin: 75px 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.phone-number, .address {
+  width: 350px;
+  margin: 12px;
+}
+
+.contact-container img {
+  align-self: center;
+  width: 350px;
+  margin: 12px 0;
+}
